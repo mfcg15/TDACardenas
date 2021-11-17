@@ -1,0 +1,684 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'es' Physical Memory: 12092 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Lenovo/Documents/Proyectos Unity/TDACardenas
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49967
+Successfully changed project path to: C:/Users/Lenovo/Documents/Proyectos Unity/TDACardenas
+C:/Users/Lenovo/Documents/Proyectos Unity/TDACardenas
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path D:/Program Files/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lenovo/Documents/Proyectos Unity/TDACardenas/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX230 (ID=0x1d11)
+    Vendor:   
+    VRAM:     1984 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'D:/Program Files/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/2020.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001981 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 46.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.309 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3310ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (672ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.631 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1632ms)
+		BeginReloadAssembly (247ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1279ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (457ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.8 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1833.
+Total: 4.472800 ms (FindLiveObjects: 0.280800 ms CreateObjectMapping: 0.101000 ms MarkObjects: 3.982800 ms  DeleteObjects: 0.106500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Models
+  artifactKey: Guid(6bbd2e80f43a22c468f64cd6166943b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(6bbd2e80f43a22c468f64cd6166943b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cb13a412084012e90a6a22029c6e8d') in 0.045256 seconds 
+  Import took 0.055393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.097633 seconds.
+  path: Assets/Models/Ch24_nonPBR.fbx
+  artifactKey: Guid(36346d969c15ada45a15133720453ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch24_nonPBR.fbx using Guid(36346d969c15ada45a15133720453ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e32091a2d28cc953ae1ad8f942abadf') in 1.065933 seconds 
+  Import took 1.070722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.882746 seconds.
+  path: Assets/Models/Ch24_nonPBR.fbx
+  artifactKey: Guid(36346d969c15ada45a15133720453ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch24_nonPBR.fbx using Guid(36346d969c15ada45a15133720453ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c93cba47495b6e6f0cd26ae4b22bd2d') in 0.119407 seconds 
+  Import took 0.130088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.508506 seconds.
+  path: Assets/Models/Materials
+  artifactKey: Guid(a947352792f180d4fa77af493ea12327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials using Guid(a947352792f180d4fa77af493ea12327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ff4614c483bfee3a3a8fbba37da20d') in 0.041493 seconds 
+  Import took 0.044860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.300740 seconds.
+  path: Assets/Models/Materials/Ch24_1001_Diffuse.mat
+  artifactKey: Guid(ec456d9fb902e23498dfd1d6b866eac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Ch24_1001_Diffuse.mat using Guid(ec456d9fb902e23498dfd1d6b866eac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df323d3df1e73a9e4333402f8133d6c') in 0.072772 seconds 
+  Import took 0.076478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.223805 seconds.
+  path: Assets/Models/Ch24_nonPBR.fbm/Ch24_1001_Diffuse.png
+  artifactKey: Guid(679eb84081d78a344baa92195cfbc0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch24_nonPBR.fbm/Ch24_1001_Diffuse.png using Guid(679eb84081d78a344baa92195cfbc0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023900 seconds  code(4) message(Build asset version error: assets/models/ch24_nonpbr.fbm/ch24_1001_diffuse.png in SourceAssetDB has modification time of '2021-11-16T19:40:11.4813592Z' while content on disk has modification time of '2021-11-16T19:40:17.1802766Z')
+  ERROR: Build asset version error: assets/models/ch24_nonpbr.fbm/ch24_1001_diffuse.png in SourceAssetDB has modification time of '2021-11-16T19:40:11.4813592Z' while content on disk has modification time of '2021-11-16T19:40:17.1802766Z'
+  Import took 0.027193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Models/Ch24_nonPBR.fbm/Ch24_1001_Normal.png
+  artifactKey: Guid(dfded4490cc55d54bb60d23be719b586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch24_nonPBR.fbm/Ch24_1001_Normal.png using Guid(dfded4490cc55d54bb60d23be719b586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb620f5bf0b5f4febecc77a910b1020') in 0.056934 seconds 
+  Import took 0.060692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Models/Ch24_nonPBR.fbm/Ch24_1001_Specular.png
+  artifactKey: Guid(db8e4e61063689f409d495b45acabfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch24_nonPBR.fbm/Ch24_1001_Specular.png using Guid(db8e4e61063689f409d495b45acabfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017591 seconds  code(4) message(Build asset version error: assets/models/ch24_nonpbr.fbm/ch24_1001_specular.png in SourceAssetDB has modification time of '2021-11-16T19:40:11.4823558Z' while content on disk has modification time of '2021-11-16T19:40:17.1823388Z')
+  ERROR: Build asset version error: assets/models/ch24_nonpbr.fbm/ch24_1001_specular.png in SourceAssetDB has modification time of '2021-11-16T19:40:11.4823558Z' while content on disk has modification time of '2021-11-16T19:40:17.1823388Z'
+  Import took 0.020637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Models/Ch24_nonPBR.fbm/Ch24_1001_Glossiness.png
+  artifactKey: Guid(e05205f91dfa068489df88ba307a7c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch24_nonPBR.fbm/Ch24_1001_Glossiness.png using Guid(e05205f91dfa068489df88ba307a7c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016459 seconds  code(4) message(Build asset version error: assets/models/ch24_nonpbr.fbm/ch24_1001_glossiness.png in SourceAssetDB has modification time of '2021-11-16T19:40:11.4883419Z' while content on disk has modification time of '2021-11-16T19:40:17.1883196Z')
+  ERROR: Build asset version error: assets/models/ch24_nonpbr.fbm/ch24_1001_glossiness.png in SourceAssetDB has modification time of '2021-11-16T19:40:11.4883419Z' while content on disk has modification time of '2021-11-16T19:40:17.1883196Z'
+  Import took 0.019996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.074228 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.042032 seconds 
+  Import took 0.052690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.821089 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(e635063c1f3c0b648aa3408f99cf1e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(e635063c1f3c0b648aa3408f99cf1e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d40463c4252857568b7508cc867cfe') in 0.041632 seconds 
+  Import took 0.045809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.889655 seconds.
+  path: Assets/Models/Ch24_nonPBR.fbm/Ch24_1001_Diffuse.png
+  artifactKey: Guid(679eb84081d78a344baa92195cfbc0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch24_nonPBR.fbm/Ch24_1001_Diffuse.png using Guid(679eb84081d78a344baa92195cfbc0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012771 seconds  code(4) message(Build asset version error: assets/models/ch24_nonpbr.fbm/ch24_1001_diffuse.png in SourceAssetDB has modification time of '2021-11-16T19:40:11.4813592Z' while content on disk has modification time of '2021-11-16T19:40:17.1802766Z')
+  ERROR: Build asset version error: assets/models/ch24_nonpbr.fbm/ch24_1001_diffuse.png in SourceAssetDB has modification time of '2021-11-16T19:40:11.4813592Z' while content on disk has modification time of '2021-11-16T19:40:17.1802766Z'
+  Import took 0.016070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Models/Ch24_nonPBR.fbm/Ch24_1001_Specular.png
+  artifactKey: Guid(db8e4e61063689f409d495b45acabfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch24_nonPBR.fbm/Ch24_1001_Specular.png using Guid(db8e4e61063689f409d495b45acabfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014697 seconds  code(4) message(Build asset version error: assets/models/ch24_nonpbr.fbm/ch24_1001_specular.png in SourceAssetDB has modification time of '2021-11-16T19:40:11.4823558Z' while content on disk has modification time of '2021-11-16T19:40:17.1823388Z')
+  ERROR: Build asset version error: assets/models/ch24_nonpbr.fbm/ch24_1001_specular.png in SourceAssetDB has modification time of '2021-11-16T19:40:11.4823558Z' while content on disk has modification time of '2021-11-16T19:40:17.1823388Z'
+  Import took 0.017593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Models/Ch24_nonPBR.fbm/Ch24_1001_Glossiness.png
+  artifactKey: Guid(e05205f91dfa068489df88ba307a7c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ch24_nonPBR.fbm/Ch24_1001_Glossiness.png using Guid(e05205f91dfa068489df88ba307a7c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015234 seconds  code(4) message(Build asset version error: assets/models/ch24_nonpbr.fbm/ch24_1001_glossiness.png in SourceAssetDB has modification time of '2021-11-16T19:40:11.4883419Z' while content on disk has modification time of '2021-11-16T19:40:17.1883196Z')
+  ERROR: Build asset version error: assets/models/ch24_nonpbr.fbm/ch24_1001_glossiness.png in SourceAssetDB has modification time of '2021-11-16T19:40:11.4883419Z' while content on disk has modification time of '2021-11-16T19:40:17.1883196Z'
+  Import took 0.018240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.523129 seconds.
+  path: Assets/Textures/Ch24_nonPBR.fbm/Ch24_1001_Diffuse.png
+  artifactKey: Guid(679eb84081d78a344baa92195cfbc0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ch24_nonPBR.fbm/Ch24_1001_Diffuse.png using Guid(679eb84081d78a344baa92195cfbc0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd951a5c609378764c213f7d9725094ad') in 0.058921 seconds 
+  Import took 0.062363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Textures/Ch24_nonPBR.fbm/Ch24_1001_Specular.png
+  artifactKey: Guid(db8e4e61063689f409d495b45acabfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ch24_nonPBR.fbm/Ch24_1001_Specular.png using Guid(db8e4e61063689f409d495b45acabfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b08b32fbed46aeef077c313f0b2a9e') in 0.059133 seconds 
+  Import took 0.062851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Textures/Ch24_nonPBR.fbm/Ch24_1001_Glossiness.png
+  artifactKey: Guid(e05205f91dfa068489df88ba307a7c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ch24_nonPBR.fbm/Ch24_1001_Glossiness.png using Guid(e05205f91dfa068489df88ba307a7c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c716444ff9111c6754880464d0d981a') in 0.062607 seconds 
+  Import took 0.065962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.588320 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(fc6e38aeef0ff8347991ca88daf2395d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(fc6e38aeef0ff8347991ca88daf2395d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9004cdd90f056b1fa2d2bee37ad0bd4') in 0.040672 seconds 
+  Import took 0.044081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.812737 seconds.
+  path: Assets/Animations/Ch24_nonPBR@Holding Idle.fbx
+  artifactKey: Guid(30d375af646dc004fa32cbd7d446cb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ch24_nonPBR@Holding Idle.fbx using Guid(30d375af646dc004fa32cbd7d446cb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4799beb2224000027fe48924d16dbaeb') in 0.047397 seconds 
+  Import took 0.051313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Animations/Ch24_nonPBR@Unarmed Run Forward.fbx
+  artifactKey: Guid(792add0834a9f8941a23e840d680b859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ch24_nonPBR@Unarmed Run Forward.fbx using Guid(792add0834a9f8941a23e840d680b859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4523c85667b86a2747e45b13abaf64') in 0.049032 seconds 
+  Import took 0.052788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.684411 seconds.
+  path: Assets/Seven Swords/Swords
+  artifactKey: Guid(e80df079c484d3449bf8c474dd38ad7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords using Guid(e80df079c484d3449bf8c474dd38ad7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af59dca927aa89ae8232c9c97f0a7604') in 0.042375 seconds 
+  Import took 0.053761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.577803 seconds.
+  path: Assets/Seven Swords/Swords/Materials
+  artifactKey: Guid(2a834253db64e7c44ab09b62aaa3c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Materials using Guid(2a834253db64e7c44ab09b62aaa3c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa35213caf4676254583808a82ceaa3') in 0.038742 seconds 
+  Import took 0.042015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036568 seconds.
+  path: Assets/Seven Swords/Swords/Materials/broadSword_mat.mat
+  artifactKey: Guid(240d193b5961a334c8aa5da3c4e00f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Materials/broadSword_mat.mat using Guid(240d193b5961a334c8aa5da3c4e00f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8440ba7b40a9ab7e1b66c32f5b592543') in 0.390775 seconds 
+  Import took 0.395117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Seven Swords/Swords/Materials/rapier_mat.mat
+  artifactKey: Guid(cf5d94a63b435354eba7bd2b822fd5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Materials/rapier_mat.mat using Guid(cf5d94a63b435354eba7bd2b822fd5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd42c8e13aac9028760c916b5b87cc3') in 0.266114 seconds 
+  Import took 0.269926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Seven Swords/Swords/Materials/sabre_mat.mat
+  artifactKey: Guid(b2068cb36a549bc40825c72fa1414790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Materials/sabre_mat.mat using Guid(b2068cb36a549bc40825c72fa1414790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25880650c64ab1a7522015969f1d337c') in 0.212930 seconds 
+  Import took 0.216618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Seven Swords/Swords/Materials/katana_mat.mat
+  artifactKey: Guid(2d53df72e4df3fb4183adab4ef943222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Materials/katana_mat.mat using Guid(2d53df72e4df3fb4183adab4ef943222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9949dad6b1ff97d9a1fdd0b3dcd9422d') in 0.210870 seconds 
+  Import took 0.214529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Seven Swords/Swords/Materials/scimitar_mat.mat
+  artifactKey: Guid(39a0645913fa9cc479eac083a431f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Materials/scimitar_mat.mat using Guid(39a0645913fa9cc479eac083a431f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7482c893401028b567176f0e4ec988') in 0.210598 seconds 
+  Import took 0.214385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Seven Swords/Swords/Materials/ulfberht_mat.mat
+  artifactKey: Guid(e3737d1a2f7474c4882fbef32e2bf1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Materials/ulfberht_mat.mat using Guid(e3737d1a2f7474c4882fbef32e2bf1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e6be6b906f6d511ab3773088e6f5b1') in 0.221252 seconds 
+  Import took 0.224917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Seven Swords/Swords/Materials/longsword_mat.mat
+  artifactKey: Guid(e155f3f856c7f414591579334c43e902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Materials/longsword_mat.mat using Guid(e155f3f856c7f414591579334c43e902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccffe1defd3ba9f2730abbaf5f4dfc1') in 0.214925 seconds 
+  Import took 0.218745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.135684 seconds.
+  path: Assets/Materials/Player
+  artifactKey: Guid(863aa6758b49a5c43a62c27bd6a124b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player using Guid(863aa6758b49a5c43a62c27bd6a124b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d5599e38944b425b4a7aa30acdc96a') in 0.040382 seconds 
+  Import took 0.043942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.483198 seconds.
+  path: Assets/Materials/Arms
+  artifactKey: Guid(0233ca14ac83aaa46a92ce27e2b576e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Arms using Guid(0233ca14ac83aaa46a92ce27e2b576e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8feb19206169c181db3e30ceafa25298') in 0.041506 seconds 
+  Import took 0.045029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.746786 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Broadsword
+  artifactKey: Guid(f61a1a273c4e57f4fb8d73f0be4640ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Broadsword using Guid(f61a1a273c4e57f4fb8d73f0be4640ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58418a117e75e9e1ccb0522dfc83ff19') in 0.041518 seconds 
+  Import took 0.045307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025607 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Broadsword/broadSword.fbx
+  artifactKey: Guid(91c58ff4eaaa0094f8640c2ec4c71308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Broadsword/broadSword.fbx using Guid(91c58ff4eaaa0094f8640c2ec4c71308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e7cfd8edb8504a6bd79dc55170c411') in 0.220873 seconds 
+  Import took 0.231846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.998521 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Katana
+  artifactKey: Guid(53e27f92979b13c4e98f8573deabe363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Katana using Guid(53e27f92979b13c4e98f8573deabe363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30225b1056ce1c7062590babf35a1d06') in 0.054078 seconds 
+  Import took 0.058267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002605 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Katana/katana.fbx
+  artifactKey: Guid(f9596f52dc5d12e4c8d035564d55754e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Katana/katana.fbx using Guid(f9596f52dc5d12e4c8d035564d55754e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3176ef4bde87865043d9d8645b49be6f') in 0.223514 seconds 
+  Import took 0.235049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.471904 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Longsword
+  artifactKey: Guid(92232da752261db4bb1a6a5d42b55020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Longsword using Guid(92232da752261db4bb1a6a5d42b55020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba1f3c38d8b8eb59683cc499bd82e94') in 0.040414 seconds 
+  Import took 0.043829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033875 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Longsword/longsword.fbx
+  artifactKey: Guid(7484c9ee9e81a274b9f590f50db046ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Longsword/longsword.fbx using Guid(7484c9ee9e81a274b9f590f50db046ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4021f6bed6dbc4018c91bf49a16da27f') in 0.214812 seconds 
+  Import took 0.219443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.324716 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Rapier
+  artifactKey: Guid(29d19b402dffbb74994df719c9fc9732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Rapier using Guid(29d19b402dffbb74994df719c9fc9732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f47d7d915c956e73872f9508db45891') in 0.045683 seconds 
+  Import took 0.056401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Rapier/rapier.fbx
+  artifactKey: Guid(bc6bd5171403ebd4a90f535f8b1023c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Rapier/rapier.fbx using Guid(bc6bd5171403ebd4a90f535f8b1023c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942397cb6cff3c7d30e275acdfc3ff15') in 0.212019 seconds 
+  Import took 0.215786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.598972 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Sabre
+  artifactKey: Guid(032cdd177b135284d86a06444379bf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Sabre using Guid(032cdd177b135284d86a06444379bf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579f3e1b4ea3d5a183a2455575a085db') in 0.046917 seconds 
+  Import took 0.057507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040707 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Sabre/sabre.fbx
+  artifactKey: Guid(4726e8fcd9ac69646a3b1e8744e5fc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Sabre/sabre.fbx using Guid(4726e8fcd9ac69646a3b1e8744e5fc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd450e20051a116cf297bed057e2723a5') in 0.213636 seconds 
+  Import took 0.217530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.829236 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Scimitar
+  artifactKey: Guid(cffcc8b8bf6f0d14b8c37bd401d69006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Scimitar using Guid(cffcc8b8bf6f0d14b8c37bd401d69006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e67ee4a9a4f95622f4b44cbbee01c57') in 0.046649 seconds 
+  Import took 0.049983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036491 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Scimitar/scimitar.fbx
+  artifactKey: Guid(8fe2ceac3d8b82a44bae250174a0d2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Scimitar/scimitar.fbx using Guid(8fe2ceac3d8b82a44bae250174a0d2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31733f6b16bc16128bffe55c63567a23') in 0.215799 seconds 
+  Import took 0.219804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.549590 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Ulfberht
+  artifactKey: Guid(93032e53cfbfbc34582168c5886798f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Ulfberht using Guid(93032e53cfbfbc34582168c5886798f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e6e2c534db8d7d037a6c1c2a9a7924') in 0.042275 seconds 
+  Import took 0.046030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035746 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Ulfberht/ulfberht.fbx
+  artifactKey: Guid(19b36c0c19af15c47a06700e9ebb309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Ulfberht/ulfberht.fbx using Guid(19b36c0c19af15c47a06700e9ebb309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777a8d3a8db4e08b70c988719c08a5aa') in 0.214373 seconds 
+  Import took 0.218346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.551851 seconds.
+  path: Assets/Models/Player
+  artifactKey: Guid(47456fd9fd72be24989bddee24fc8a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Player using Guid(47456fd9fd72be24989bddee24fc8a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6645ca111f23e3f0c1c2ed8633d48d') in 0.040684 seconds 
+  Import took 0.044450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.657035 seconds.
+  path: Assets/Models/Arms
+  artifactKey: Guid(8751bdaf5a140a84383fa0d56ebb4109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Arms using Guid(8751bdaf5a140a84383fa0d56ebb4109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bab9f186e146a756cec2a1694360df') in 0.040724 seconds 
+  Import took 0.044327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.416717 seconds.
+  path: Assets/Seven Swords/Swords/Prefabs with Colliders/Broadsword w_ Colliders.prefab
+  artifactKey: Guid(d096c2dbc4ba8b344a7752253f0049ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Prefabs with Colliders/Broadsword w_ Colliders.prefab using Guid(d096c2dbc4ba8b344a7752253f0049ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e411d6dd1f5b13c6dcfa92c4dbd3817') in 0.215624 seconds 
+  Import took 0.220190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Seven Swords/Swords/Prefabs with Colliders/Ulfberht w_ Colliders.prefab
+  artifactKey: Guid(a45a25ec0193de54fbd3efca6e19755e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Prefabs with Colliders/Ulfberht w_ Colliders.prefab using Guid(a45a25ec0193de54fbd3efca6e19755e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06b50bbda4f13efb65abbd30270638a') in 0.213099 seconds 
+  Import took 0.217033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Seven Swords/Swords/Prefabs with Colliders/Katana w_ Colliders.prefab
+  artifactKey: Guid(47377a9aa6b50294a865e21fe968af4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Prefabs with Colliders/Katana w_ Colliders.prefab using Guid(47377a9aa6b50294a865e21fe968af4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00209ae318f13693dccc47de88c50e8') in 0.210280 seconds 
+  Import took 0.214079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Seven Swords/Swords/Prefabs with Colliders/Rapier w_ Colliders.prefab
+  artifactKey: Guid(10329765d2451e540b1dae01df03c59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Prefabs with Colliders/Rapier w_ Colliders.prefab using Guid(10329765d2451e540b1dae01df03c59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ccf125f24fcc8d5f3026407c29bfb9') in 0.210542 seconds 
+  Import took 0.214360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Seven Swords/Swords/Prefabs with Colliders/Longsword w_ Colliders.prefab
+  artifactKey: Guid(6a0eedfe1b2e14d47b276e72159e85b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Prefabs with Colliders/Longsword w_ Colliders.prefab using Guid(6a0eedfe1b2e14d47b276e72159e85b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23f558a1faa92c1610f5c241fa9f273') in 0.212300 seconds 
+  Import took 0.216107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Seven Swords/Swords/Prefabs with Colliders/Scimitar w_ Colliders.prefab
+  artifactKey: Guid(0af636dcf564eb140b31a01bf4b6a9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Prefabs with Colliders/Scimitar w_ Colliders.prefab using Guid(0af636dcf564eb140b31a01bf4b6a9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53f41afb2f566db73993b1d77aaf4ef') in 0.209978 seconds 
+  Import took 0.221255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Seven Swords/Swords/Prefabs with Colliders/Sabre w_ Colliders.prefab
+  artifactKey: Guid(b9432b6a4a78c64449366f08c7196deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Prefabs with Colliders/Sabre w_ Colliders.prefab using Guid(b9432b6a4a78c64449366f08c7196deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c094083e98cc855a4999ed45b3bf4c') in 0.202549 seconds 
+  Import took 0.206419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.958795 seconds.
+  path: Assets/Seven Swords/Swords/Textures/toonRamp_basic.psd
+  artifactKey: Guid(e703b092a67e85c49938e613a1d52f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Textures/toonRamp_basic.psd using Guid(e703b092a67e85c49938e613a1d52f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f1ce94db5cc052ddb491f170d5bc1f') in 0.056088 seconds 
+  Import took 0.059825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.710690 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(53c3db0b65d7f0f40adb4b724acab275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(53c3db0b65d7f0f40adb4b724acab275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e8241a9cb83d84b1fead6fbc850dc7') in 0.044018 seconds 
+  Import took 0.047787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.544089 seconds.
+  path: Assets/Seven Swords/Swords/Prefabs with Colliders
+  artifactKey: Guid(4ec21e78759e19747a34796230e3ba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Prefabs with Colliders using Guid(4ec21e78759e19747a34796230e3ba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d513de3a895d75a9305e749f18522ac') in 0.042646 seconds 
+  Import took 0.046159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.338548 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(330997ca0605f2441aaea5baebacc2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(330997ca0605f2441aaea5baebacc2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4eca745344a5595be981957d6748dc') in 0.041281 seconds 
+  Import took 0.044805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.121425 seconds.
+  path: Assets/Textures/Textures/Broadsword
+  artifactKey: Guid(df2457a5c00b36a4c86fe1d8bdc933ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Broadsword using Guid(df2457a5c00b36a4c86fe1d8bdc933ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773ed0a0d03e9f2c17ccc59b14fb2d21') in 0.039786 seconds 
+  Import took 0.043535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036251 seconds.
+  path: Assets/Textures/Textures/Broadsword/broadSword_diff.tga
+  artifactKey: Guid(de7548559e0cd7441b3ab195602eaf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Broadsword/broadSword_diff.tga using Guid(de7548559e0cd7441b3ab195602eaf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5ace3d7d2b20a514c829a4238de9db') in 0.063950 seconds 
+  Import took 0.067536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.491008 seconds.
+  path: Assets/Models/Arms/Meshes
+  artifactKey: Guid(f946a13cd9e7c17409ea40924773d732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Arms/Meshes using Guid(f946a13cd9e7c17409ea40924773d732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74382f56ba7f951b478603358c853fec') in 0.041403 seconds 
+  Import took 0.044856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.915959 seconds.
+  path: Assets/Seven Swords/Swords/Materials
+  artifactKey: Guid(e09ab9470680e61479017457c02834b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Materials using Guid(e09ab9470680e61479017457c02834b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb279cab099ce3000b4e1b7913b02d3') in 0.038891 seconds 
+  Import took 0.042563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.181931 seconds.
+  path: Assets/Seven Swords/Swords/Meshes
+  artifactKey: Guid(f98a10d6544eb2c408196703d7253e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes using Guid(f98a10d6544eb2c408196703d7253e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb3b651df6677d93d0ca7a2a24a1bd6') in 0.041914 seconds 
+  Import took 0.045382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.073480 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Broadsword
+  artifactKey: Guid(d50cee0a86eaaf544bd9cc4c6f3192d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Broadsword using Guid(d50cee0a86eaaf544bd9cc4c6f3192d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c41e8d890282744f6cc0a03777087f') in 0.040419 seconds 
+  Import took 0.043846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.829508 seconds.
+  path: Assets/Seven Swords/Swords/Prefabs with Colliders
+  artifactKey: Guid(4935cba0f2d35a74c9c988111e6c0889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Prefabs with Colliders using Guid(4935cba0f2d35a74c9c988111e6c0889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16014d8ff8e0da0b652c523d708f300f') in 0.039042 seconds 
+  Import took 0.043778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.380250 seconds.
+  path: Assets/Seven Swords/Swords/Meshes/Katana
+  artifactKey: Guid(3ccb99f35e7756e409b99308b32a23f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Meshes/Katana using Guid(3ccb99f35e7756e409b99308b32a23f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c66c0837425a6eefe061eca08acd7fa') in 0.038602 seconds 
+  Import took 0.042464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.299854 seconds.
+  path: Assets/Seven Swords/Swords/Textures/Katana
+  artifactKey: Guid(abc62df384f7d1b4192a4721799254bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Textures/Katana using Guid(abc62df384f7d1b4192a4721799254bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6872d3c538a943ec3c515e8a50c1dcb2') in 0.040093 seconds 
+  Import took 0.043509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041128 seconds.
+  path: Assets/Seven Swords/Swords/Textures/Katana/katana_diff.tga
+  artifactKey: Guid(85b46585c892f0449bcc027a76f9213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Seven Swords/Swords/Textures/Katana/katana_diff.tga using Guid(85b46585c892f0449bcc027a76f9213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bea587423b7912df4a243470264a278') in 0.055510 seconds 
+  Import took 0.058933 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
